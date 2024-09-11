@@ -1,5 +1,7 @@
 # internet-shop
 
+Thx to Joza for sharing this project with me
+
 My final project - a simple bakery store.
 
 ## Features
