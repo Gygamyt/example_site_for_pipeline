@@ -51,3 +51,4 @@ Products images are placed:
 ## Built With
 - Django
 - Bootstrap
+- Gh Actions
