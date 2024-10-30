@@ -1,8 +1,6 @@
 # internet-shop
 
-Thx to Joza for sharing this project with me
-
-My final project - a simple bakery store.
+Thx to Kate for sharing this project with me
 
 ## Features
 - sending emails (order confirmation, user verification)
@@ -13,6 +11,10 @@ My final project - a simple bakery store.
 
 ## Installation
 
+```bash
+cd src
+```
+
 Linux:
 
 ```bash
@@ -21,11 +23,26 @@ source .venv/bin/activate
 pip install requirements.txt
 ```
 
+Windows:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
 ## Run
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
+python manage.py runserver
+```
+
+## Run without migrations
+
+```bash
+cd src
 python manage.py runserver
 ```
 
@@ -52,3 +69,4 @@ Products images are placed:
 - Django
 - Bootstrap
 - Gh Actions 
+- 
